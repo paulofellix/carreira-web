@@ -1,0 +1,57 @@
+body {
+	background-color: #ececec;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+nav {
+	background-color: black;
+	color: white;
+}
+
+nav ul {
+	height: 38px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+}
+
+nav ul li a:hover {
+	background-color: silver;
+	color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+.project {
+	float: left;
+	width: 300px;
+	/*border: solid 1px;*/
+	padding: 10px;
+}
+
+.project-inner {
+	border: solid 1px;
+}
+
+.project-inner img{
+	width: 298px;
+}
