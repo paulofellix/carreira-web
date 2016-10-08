@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TO-DO - Lista de Tarefas</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carreira Web - Aula 03</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+
+        <main>
+            <div>
+                <input type="text" id="new-task" class="form-control" placeholder="O que você precisa fazer?">
+            </div>
+            <div>
+                <ul id="tasks" class="list-group">
+                </ul>
+            </div>
+        </main>
+    </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="js/app.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        carregarTarefas();
+    </script>
+</body>
+
+</html>
